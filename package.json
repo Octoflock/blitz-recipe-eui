@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/timetrackify/blitz-receipe-eui#readme",
   "dependencies": {
-    "@blitzjs/installer": "^0.34.0",
+    "@blitzjs/installer": "^0.34.1",
     "@types/jscodeshift": "0.11.0",
     "jscodeshift": "0.11.0"
   }
