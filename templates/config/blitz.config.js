@@ -109,12 +109,12 @@ const nextConfig = {
       // If you need to highlight more than just JSON, edit the file below.
       new NormalModuleReplacementPlugin(
         /^highlight\.js$/,
-        path.join(__dirname, `lib/highlight.ts`)
+        path.join(__dirname, `app/lib/highlight.ts`)
       ),
 
       new NormalModuleReplacementPlugin(
         /^lowlight$/,
-        path.join(__dirname, `lib/lowlight.ts`)
+        path.join(__dirname, `app/lib/lowlight.ts`)
       ),
 
       // Moment ships with a large number of locales. Exclude them, leaving
@@ -206,7 +206,7 @@ function buildThemeConfig() {
   const themeFiles = glob.sync(
     path.join(
       __dirname,
-      "node_modules",
+      "../../node_modules",
       "@elastic",
       "eui",
       "dist",

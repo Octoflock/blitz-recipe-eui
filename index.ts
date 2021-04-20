@@ -6,8 +6,8 @@ export default RecipeBuilder()
   .setDescription(
     `This will install all necessary dependencies and configure Elastic UI for use.`
   )
-  .setOwner("carter@timetrackify.com")
-  .setRepoLink("https://github.com/timetrackify/blitz-recipe-eui")
+  .setOwner("carter@octoflock.com")
+  .setRepoLink("https://github.com/octoflock/blitz-recipe-eui")
   .addAddDependenciesStep({
     stepId: "addDeps",
     stepName: "npm dependencies",
@@ -17,7 +17,7 @@ export default RecipeBuilder()
       { name: "@elastic/datemath", version: "5.0.3" },
       { name: "glob", version: "7.1.6" },
       { name: "@next/bundle-analyzer", version: "10.1.3", isDevDep: true },
-      { name: "copy-webpack-plugin", version: "6.3.2", isDevDep: true },
+      { name: "copy-webpack-plugin", version: "6.4.1", isDevDep: true },
       { name: "iniparser", version: "1.0.5", isDevDep: true },
       { name: "null-loader", version: "4.0.1", isDevDep: true },
     ],
@@ -31,11 +31,11 @@ export default RecipeBuilder()
     templateValues: {},
   })
   .addNewFilesStep({
-    stepId: "addHighlight",
-    stepName: "Add Highlight.js",
-    explanation: `Adds a highlightjs config.`,
-    targetDirectory: "./lib/",
-    templatePath: join(__dirname, "templates", "lib"),
+    stepId: "addTheme",
+    stepName: "Add theme and highlight.js",
+    explanation: `Sets up the eui theme.`,
+    targetDirectory: "./app/",
+    templatePath: join(__dirname, "templates", "app"),
     templateValues: {},
   })
   .build();
