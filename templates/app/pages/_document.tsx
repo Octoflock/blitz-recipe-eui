@@ -1,7 +1,7 @@
+import { EuiButton } from "@elastic/eui";
 import { BlitzScript, Document, DocumentHead, Html, Main } from "blitz";
 import React, { ReactElement } from "react";
 import { defaultTheme, Theme, themeConfig } from "../lib/theme";
-
 const pathPrefix = process.env.PATH_PREFIX;
 
 function themeLink(theme: Theme): ReactElement {
@@ -36,6 +36,11 @@ class MyDocument extends Document {
         </DocumentHead>
 
         <body className="guideBody">
+          {/* Delete this! */}
+          <EuiButton size="s" onClick={() => {}}>
+            Small
+          </EuiButton>
+
           <Main />
           <BlitzScript />
         </body>
