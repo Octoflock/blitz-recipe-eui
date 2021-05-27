@@ -356,35 +356,35 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@blitzjs/config@0.34.0":
-  version "0.34.0"
-  resolved "https://registry.yarnpkg.com/@blitzjs/config/-/config-0.34.0.tgz#72b1f48e3d1b036571635ee84f82f4dbd3afa957"
-  integrity sha512-7F1zyCeVQA6yr0GVbCK8/NCDCsddmpR8JKWK1SPperbmddVSPUbeHGdYGlF0xzGZdaBEU+uhofmYSRR/KchbQA==
+"@blitzjs/config@0.34.3":
+  version "0.34.3"
+  resolved "https://registry.yarnpkg.com/@blitzjs/config/-/config-0.34.3.tgz#83604d63e9722a80ba3fa324e99dba359e6b658b"
+  integrity sha512-3MAmHK6Kh7XJIT6mCETUvRFalqJLkk1wCYBuFXLtzqpwry/bSgPHBzAlpzccgSys5zpjBvbftns2X3i1L9X2gQ==
   dependencies:
     fs-extra "^9.1.0"
     pkg-dir "^5.0.0"
 
-"@blitzjs/display@0.34.0":
-  version "0.34.0"
-  resolved "https://registry.yarnpkg.com/@blitzjs/display/-/display-0.34.0.tgz#f46ed3d3774d0170eb52af71d4c89da09cac9e8f"
-  integrity sha512-+tHVyEe5umCnwlRoPqzryfZLuDqSORUXNiXP8z3Ufrpjo6hr4Yl0DxGbtcCz4TgBx91OvbVyDI68bkHFePj0Iw==
+"@blitzjs/display@0.34.3":
+  version "0.34.3"
+  resolved "https://registry.yarnpkg.com/@blitzjs/display/-/display-0.34.3.tgz#9d17d16658c3d5576509356bccc33351e581ec4b"
+  integrity sha512-PvZphihfJKFmr5aVLQZgq/MEYDJFb2I8NmwNwNE8U+M4asctZACbiXeuRnjqN3JUultO8bk+ZyLos4vUr6nDcw==
   dependencies:
-    "@blitzjs/config" "0.34.0"
-    "@blitzjs/display" "0.34.0"
+    "@blitzjs/config" "0.34.3"
+    "@blitzjs/display" "0.34.3"
     chalk "^4.1.0"
     console-table-printer "^2.7.5"
     ora "^5.3.0"
     readline "1.3.0"
     tslog "^3.1.1"
 
-"@blitzjs/generator@0.34.0":
-  version "0.34.0"
-  resolved "https://registry.yarnpkg.com/@blitzjs/generator/-/generator-0.34.0.tgz#315c8b79e33df1a2cac66b2942d1343cc042d767"
-  integrity sha512-Bg1mXOMwqbH8yG4Gi7yT9DEOp34ryPs8WaeIi8tBOWf5ULXfz9Py5DQlsMfF3Lg8+yxzWV+xttQ6axueo2wasg==
+"@blitzjs/generator@0.34.3":
+  version "0.34.3"
+  resolved "https://registry.yarnpkg.com/@blitzjs/generator/-/generator-0.34.3.tgz#0b75758bc5b8e319853f548a0df161621c418107"
+  integrity sha512-KlsroS8Tx0Dq1MkcfT3qBux90CgKFp2Gs4AHWy1ZYV/9Fiu3lw/d53sY1msEEB0ggIhXjlb+AFgE5FqtBG5+FA==
   dependencies:
     "@babel/core" "7.12.10"
     "@babel/plugin-transform-typescript" "7.12.1"
-    "@blitzjs/display" "0.34.0"
+    "@blitzjs/display" "0.34.3"
     "@types/jscodeshift" "0.7.2"
     chalk "^4.1.0"
     cross-spawn "7.0.3"
@@ -401,16 +401,16 @@
     username "^5.1.0"
     vinyl "2.2.1"
 
-"@blitzjs/installer@^0.34.0":
-  version "0.34.0"
-  resolved "https://registry.yarnpkg.com/@blitzjs/installer/-/installer-0.34.0.tgz#7731c5040c196c0a8c0717da11ae2a8c1208b3e0"
-  integrity sha512-fCuLnCcR1mM+FFoVwpdSU/jNZghS/7x0nmGAa3gx/RGN9Q7/quvqY1M6iR5iXRhxYKQGTXLWOWJDcYH4wmkbKQ==
+"@blitzjs/installer@^0.34.1":
+  version "0.34.3"
+  resolved "https://registry.yarnpkg.com/@blitzjs/installer/-/installer-0.34.3.tgz#51f33c855391c00fb1a5f417fb4818a4e3c00249"
+  integrity sha512-y7Od0YCj+ltwegNB0gmtjnLJk5e6uiqfHp8ZmpK/mnETIJXfXab/xXSJBhvyKcEvh0oO9GQC7v7ivGGouBL57g==
   dependencies:
     "@babel/core" "7.12.10"
     "@babel/plugin-transform-typescript" "7.12.1"
-    "@blitzjs/config" "0.34.0"
-    "@blitzjs/display" "0.34.0"
-    "@blitzjs/generator" "0.34.0"
+    "@blitzjs/config" "0.34.3"
+    "@blitzjs/display" "0.34.3"
+    "@blitzjs/generator" "0.34.3"
     "@types/jscodeshift" "0.7.2"
     cross-spawn "7.0.3"
     diff "5.0.0"
@@ -717,13 +717,13 @@ braces@^3.0.1:
     fill-range "^7.0.1"
 
 browserslist@^4.14.5:
-  version "4.16.4"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.16.4.tgz#7ebf913487f40caf4637b892b268069951c35d58"
-  integrity sha512-d7rCxYV8I9kj41RH8UKYnvDYCRENUlHRgyXy/Rhr/1BaeLGfiCptEdFE8MIrvGfWbBFNjVYx76SQWvNX1j+/cQ==
+  version "4.16.6"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.16.6.tgz#d7901277a5a88e554ed305b183ec9b0c08f66fa2"
+  integrity sha512-Wspk/PqO+4W9qp5iUTJsa1B/QrYn1keNCcEP5OvP7WBwT4KaDly0uONYmC6Xa3Z5IqnUgS0KcgLYu1l74x0ZXQ==
   dependencies:
-    caniuse-lite "^1.0.30001208"
+    caniuse-lite "^1.0.30001219"
     colorette "^1.2.2"
-    electron-to-chromium "^1.3.712"
+    electron-to-chromium "^1.3.723"
     escalade "^3.1.1"
     node-releases "^1.1.71"
 
@@ -781,10 +781,10 @@ call-bind@^1.0.0:
     function-bind "^1.1.1"
     get-intrinsic "^1.0.2"
 
-caniuse-lite@^1.0.30001208:
-  version "1.0.30001211"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001211.tgz#be40d528bb10272eba0037a88adc40054810f8e2"
-  integrity sha512-v3GXWKofIkN3PkSidLI5d1oqeKNsam9nQkqieoMhP87nxOY0RPDC8X2+jcv8pjV4dRozPLSoMqNii9sDViOlIg==
+caniuse-lite@^1.0.30001219:
+  version "1.0.30001230"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001230.tgz#8135c57459854b2240b57a4a6786044bdc5a9f71"
+  integrity sha512-5yBd5nWCBS+jWKTcHOzXwo5xzcj4ePE/yjtkZyUV1BTUmrBaA9MRGC+e7mxnqXSA90CmCA8L3eKLaSUkt099IQ==
 
 chalk@^2.0.0, chalk@^2.4.2:
   version "2.4.2"
@@ -1098,10 +1098,10 @@ ejs@^3.1.5:
   dependencies:
     jake "^10.6.1"
 
-electron-to-chromium@^1.3.712:
-  version "1.3.717"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.717.tgz#78d4c857070755fb58ab64bcc173db1d51cbc25f"
-  integrity sha512-OfzVPIqD1MkJ7fX+yTl2nKyOE4FReeVfMCzzxQS+Kp43hZYwHwThlGP+EGIZRXJsxCM7dqo8Y65NOX/HP12iXQ==
+electron-to-chromium@^1.3.723:
+  version "1.3.740"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.740.tgz#e38b7d2b848f632191b643e6dabca51be2162922"
+  integrity sha512-Mi2m55JrX2BFbNZGKYR+2ItcGnR4O5HhrvgoRRyZQlaMGQULqDhoGkLWHzJoshSzi7k1PUofxcDbNhlFrDZNhg==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -2039,9 +2039,9 @@ node-modules-regexp@^1.0.0:
   integrity sha1-jZ2+KJZKSsVxLpExZCEHxx6Q7EA=
 
 node-releases@^1.1.71:
-  version "1.1.71"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.71.tgz#cb1334b179896b1c89ecfdd4b725fb7bbdfc7dbb"
-  integrity sha512-zR6HoT6LrLCRBwukmrVbHv0EpEQjksO6GmFcZQQuCAy139BEsoVKPYnf3jongYW83fAa1torLGYwxxky/p28sg==
+  version "1.1.72"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.72.tgz#14802ab6b1039a79a0c7d662b610a5bbd76eacbe"
+  integrity sha512-LLUo+PpH3dU6XizX3iVoubUNheF/owjXCZZ5yACDxNnPtgFuludV1ZL3ayK1kVep42Rmm0+R9/Y60NQbZ2bifw==
 
 normalize-path@^3.0.0:
   version "3.0.0"
